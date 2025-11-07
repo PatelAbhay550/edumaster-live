@@ -39,7 +39,15 @@ const blogs = [
     examType: "SSC CHSL",
     questionCount: 20,
   },
-  // Add more blog entries here
+  {
+    title: "Important Folk Dances of India - MCQs",
+    excerpt: "Enhance your knowledge of India's rich cultural heritage with these MCQs on traditional folk dances from various states.",
+    category: "General Knowledge",
+    date: "Nov 6, 2025",
+    slug: "/blogs/general-knowledge/folk-dance-in-india-mcq",
+    examType: "All Exams",
+    questionCount: 10,
+  }
 ];
 
 export default function BlogsPage() {
