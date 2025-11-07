@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-const baseUrl = "https://edumaster.live";
+const baseUrl = "https://edumaster-live.vercel.app";
 
 interface SEOProps {
   title: string;
@@ -69,4 +69,5 @@ export function constructMetadata({
     },
     manifest: `${baseUrl}/manifest.json`,
   };
+
 }
