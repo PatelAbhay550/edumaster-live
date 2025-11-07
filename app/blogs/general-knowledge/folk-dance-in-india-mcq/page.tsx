@@ -135,7 +135,9 @@ const questions = [
 
       <section className="prose prose-gray dark:prose-invert max-w-none">
         <p className="lead">
-          This blog post presents 10 important multiple-choice questions (MCQs) about major folk dances in India. These questions are frequently asked in various competitive examinations such as SSC, Railway, and Banking exams. Each question is followed by four options, the correct answer, and a detailed explanation to help you understand the topic better.
+          This blog post presents 10 important multiple-choice questions (MCQs) about major folk dances in India. Dance is one of the most expressive and captivating forms of art — a universal language that transcends words. In India, dance is deeply rooted in tradition, spirituality, and storytelling, making it an integral part of our rich cultural heritage. From classical styles like Bharatanatyam and Kathak to vibrant folk dances such as Bhangra and Garba, each form carries a unique story of its origin, regional influence, and symbolic gestures.
+<br/>
+For aspirants preparing for competitive exams or cultural studies, understanding the history, origin, and characteristics of Indian dance forms can provide a strong edge
         </p>
         <Image
           src="/blog-images/top-10-important-folk-dances.webp"
@@ -154,7 +156,7 @@ const questions = [
               <div className="space-y-2">
                 <div className="flex items-start gap-3">
                   <span className="flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 text-sm font-medium text-blue-600 flex-shrink-0 mt-1">
-                    {q.question_no}
+                   {q.question_no}
                   </span>
                   <h3 className="font-medium text-lg">{q.question}</h3>
                 </div>
