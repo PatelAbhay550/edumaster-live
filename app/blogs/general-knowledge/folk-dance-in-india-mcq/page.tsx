@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = constructMetadata({
   title: "Folk Dance in India MCQs | Top 10 Questions with Solution ",
-  description: "Practice 50 important MCQs about major folk dances in India. Comprehensive questions with detailed explanations for SSC, Railway, Banking, and other competitive exams. Learn about Bhangra, Kathak, Odissi, and more.",
+  description: "Practice 50 important MCQs about major folk dances in India. Questions with detailed explanations for SSC, Railway, Banking. Learn about Bhangra, Kathak, Odissi, and more.",
   keywords: [
     "folk dance in india mcq",
     "indian folk dance questions",
@@ -237,3 +237,4 @@ For aspirants preparing for competitive exams or cultural studies, understanding
     </div>
   );
 }
+
