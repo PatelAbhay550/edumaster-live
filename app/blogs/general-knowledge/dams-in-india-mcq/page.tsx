@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = constructMetadata({
   title: "Top 10 Important SSC CHSL MCQs on Dams in India",
-  description: "Practice 50 important MCQs about major dams in India. Comprehensive questions with detailed explanations for SSC, Railway, Banking, and other competitive exams. Learn about Tehri Dam, Bhakra Dam, Hirakud Dam, and more.",
+  description: "Practice 50 important MCQs about major dams in India. For SSC, Railway, Banking, and other competitive exams. Learn about Tehri Dam, Bhakra Dam, Hirakud Dam.",
   keywords: [
     "dams in india mcq",
     "indian dams questions",
@@ -268,4 +268,5 @@ export default function DamsInIndiaMCQPage() {
         </footer>
     </div>
   );
+
 }
