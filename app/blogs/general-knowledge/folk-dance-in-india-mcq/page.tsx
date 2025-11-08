@@ -158,7 +158,7 @@ For aspirants preparing for competitive exams or cultural studies, understanding
                   <span className="flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 text-sm font-medium text-blue-600 flex-shrink-0 mt-1">
                    {q.question_no}
                   </span>
-                  <h3 className="font-medium text-lg">{q.question}</h3>
+                  <h2 className="font-medium text-lg">{q.question}</h2>
                 </div>
                   <div className="grid gap-3 pl-9">
                   {(q.options as string[]).map((option: string, optIndex: number) => (
