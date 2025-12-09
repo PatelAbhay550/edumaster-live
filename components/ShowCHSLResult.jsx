@@ -6,7 +6,7 @@ const ShowCHSLResult = ({data}) => {
 
   if (!displayData) return null;
 
-  const sections = ['General Intelligence and Reasoning', 'General Intelligence', 'Quantitative Aptitude', 'English Comprehension'];
+  const sections = ['General Intelligence and Reasoning', 'General Awareness', 'Quantitative Aptitude', 'English Comprehension'];
 
   return (
     <div className="mt-8 space-y-6">
@@ -132,5 +132,6 @@ const ShowCHSLResult = ({data}) => {
     </div>
   )
 }
+
 
 export default ShowCHSLResult
